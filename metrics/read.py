@@ -4,7 +4,7 @@ import spell.client
 client = spell.client.from_environment()
 
 # replace with the actual run id value
-RUN_ID = 123
+RUN_ID = 285
 run = client.runs.get(RUN_ID)
 
 # we return the metrics data as a generator
